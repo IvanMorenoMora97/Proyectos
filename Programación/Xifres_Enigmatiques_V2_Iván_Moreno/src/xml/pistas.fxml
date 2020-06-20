@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="226.0" prefWidth="288.0" style="-fx-background-color: #b2f1d0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="125.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="PISTES" underline="true" />
+      <Text fx:id="pista" layoutX="120.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="" />
+      <Text layoutX="122.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="? - ? = 2" />
+      <Text layoutX="118.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="? * 2 = 12" />
+      <Text layoutX="103.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="? + 12 = 112" />
+      <Text layoutX="109.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="112 * ? = 560" />
+      </children>
+</Pane>

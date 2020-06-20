@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="197.0" prefWidth="315.0" style="-fx-background-color: #b2f1d0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xml.ControladorVentanaPrincipal">
+   <children>
+      <Button id="abrir" layoutX="69.0" layoutY="59.0" mnemonicParsing="false" onAction="#segur" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="JOC SEGUR" />
+     <Button fx:id="cerrar" cancelButton="true" layoutX="108.0" layoutY="135.0" mnemonicParsing="false" onAction="#cerrar" prefWidth="100.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="CERRAR" />
+      <Button id="abrir" layoutX="169.0" layoutY="59.0" mnemonicParsing="false" onAction="#basic" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="JOC BASIC" />
+     </children>
+</Pane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="351.0" style="-fx-background-color: #b2f1d0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xml.Controlador2">
+   <children>
+      <Button fx:id="random" layoutX="70.0" layoutY="14.0" mnemonicParsing="false" onAction="#random" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="Nou Enigme" underline="true" />
+      <Button fx:id="limpiar" layoutX="178.0" layoutY="14.0" mnemonicParsing="false" onAction="#limpiar" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="Neteja Operacions" underline="true" />
+      <Button fx:id="numero1" layoutX="33.0" layoutY="101.0" mnemonicParsing="false" onAction="#numeros" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="100" />
+      <Button fx:id="numero2" layoutX="33.0" layoutY="157.0" mnemonicParsing="false" onAction="#numeros" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="50" />
+      <Button fx:id="numero3" layoutX="33.0" layoutY="214.0" mnemonicParsing="false" onAction="#numeros" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="9" />
+      <Button fx:id="numero4" layoutX="33.0" layoutY="272.0" mnemonicParsing="false" onAction="#numeros" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="6" />
+      <Button fx:id="numero5" layoutX="33.0" layoutY="336.0" mnemonicParsing="false" onAction="#numeros" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="5" />
+      <Button fx:id="numero6" layoutX="33.0" layoutY="394.0" mnemonicParsing="false" onAction="#numeros" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="7" />
+      <Button fx:id="interrogante1" layoutX="260.0" layoutY="101.0" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="?" />
+      <Button fx:id="interrogante2" layoutX="260.0" layoutY="157.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="?" />
+      <Button fx:id="interrogante3" layoutX="260.0" layoutY="214.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="?" />
+      <Button fx:id="interrogante4" layoutX="260.0" layoutY="272.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="?" />
+      <Button fx:id="interrogante5" layoutX="260.0" layoutY="336.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="?" />
+      <Button fx:id="sumar" layoutX="27.0" layoutY="489.0" mnemonicParsing="false" onAction="#operaciones" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="+" />
+      <Button fx:id="restar" layoutX="100.0" layoutY="489.0" mnemonicParsing="false" onAction="#operaciones" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="-" />
+      <Button fx:id="multiplicar" layoutX="176.0" layoutY="489.0" mnemonicParsing="false" onAction="#operaciones" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="*" />
+      <Button fx:id="dividir" layoutX="254.0" layoutY="489.0" mnemonicParsing="false" onAction="#operaciones" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="/" />
+      <Text fx:id="objetivo" layoutX="138.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Objectiu: " />
+      <Text fx:id="operacion1" layoutX="172.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="-" />
+      <Text fx:id="operacion2" layoutX="172.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="-" />
+      <Text fx:id="operacion3" layoutX="173.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="-" />
+      <Text fx:id="operacion4" layoutX="172.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="-" />
+      <Text fx:id="operacion5" layoutX="172.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="-" />
+      <Text layoutX="40.0" layoutY="454.0" stroke="#070707" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="S' utilitzara el seguent numero per a fer l' operació:" underline="true" />
+      <Text fx:id="numerito" layoutX="159.0" layoutY="478.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" />
+      <Button fx:id="ventanaInicial" layoutX="18.0" layoutY="44.0" mnemonicParsing="false" onAction="#ventanaInicial" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="Finestra Inicial" />
+      <Text fx:id="numeroUsar" layoutX="163.0" layoutY="478.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" underline="true" />
+   </children>
+</Pane>

@@ -1,0 +1,11 @@
+El proyecto está realizado por Jon Campaña, Iván Moreno y Raúl Pérez
+
+Lo hemos hecho de forma local, tanto el servidor como los 6 clientes se ejecutan desde un mismo ordenador.
+
+Obviamente, se puede hacer desde otros ordenadores pero tienen que estar en la misma red, no hemos encontrado solución de hacerlo por distintas redes.
+
+El programa a veces no entra correctamente por que se queda pillado los sockets, simplemente cierras todos las consolas y vuelves a ejecutar y debe funcionar
+
+Autoavaluación: 7
+
+

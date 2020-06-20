@@ -1,0 +1,21 @@
+T'ha tocat ser alumne en aquesta història.
+
+Això et dona els següents drets:
+
+1) Vota dos infiltrats de la llista d'infiltrats ... seran els teus candidats a "morir".
+2) Vota un professor per "morir" i un per "inmunitzar"
+
+Indica en un fitxer amb el teu nom extensió txt aquests noms (exemple,  AaronAbellon.txt)
+
+Genera una clau simètrica AES, segons les especificacions de la pràctica. Anomena aquesta clau amb el teu nom extensió sim  (exemple AaronAbellon.sim)
+
+Encripta el fitxer amb la teva clau simètrica AES anterior, i conserva-la. El fitxer encriptat serà, per exemple, AaronAbellon.txt.sim)
+
+Encripta la teva clau simètrica amb la meva clau pública que tens  (GregorioSantamaria.pub)   genera el fitxer amb el teu nom amb extensió .pub.epv    (exemple AaronAbellon.sim.epv)
+
+Envia en tasca moodle dos fitxers:
+
+   - la teva clau simètrica
+   - el fitxer de votacions encriptat amb aquesta clau simètrica
+   
+Si això funciona ja estaràs preparat per l'última sorpresa d'aquesta història. ¿Te lo vas a perder?

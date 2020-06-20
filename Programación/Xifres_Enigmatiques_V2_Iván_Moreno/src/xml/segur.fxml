@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="351.0" style="-fx-background-color: #b2f1d0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xml.Controlador">
+   <children>
+      <Button fx:id="btnEnigme" layoutX="77.0" layoutY="14.0" mnemonicParsing="false" onAction="#nuevo" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="Nou Enigme" underline="true" />
+      <Button fx:id="btnNeteja" layoutX="185.0" layoutY="14.0" mnemonicParsing="false" onAction="#vaciar" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="Neteja Operacions" underline="true" />
+      <Button fx:id="btnN1" layoutX="33.0" layoutY="101.0" mnemonicParsing="false" onAction="#coger" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="100" />
+      <Button fx:id="btnN2" layoutX="33.0" layoutY="157.0" mnemonicParsing="false" onAction="#coger" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="50" />
+      <Button fx:id="btnN3" layoutX="33.0" layoutY="214.0" mnemonicParsing="false" onAction="#coger" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="9" />
+      <Button fx:id="btnN4" layoutX="33.0" layoutY="272.0" mnemonicParsing="false" onAction="#coger" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="6" />
+      <Button fx:id="btnN5" layoutX="33.0" layoutY="336.0" mnemonicParsing="false" onAction="#coger" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="5" />
+      <Button fx:id="btnN6" layoutX="33.0" layoutY="394.0" mnemonicParsing="false" onAction="#coger" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="7" />
+      <Button fx:id="btnR1" layoutX="260.0" layoutY="101.0" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="?" />
+      <Button fx:id="btnR2" layoutX="260.0" layoutY="157.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="?" />
+      <Button fx:id="btnR3" layoutX="260.0" layoutY="214.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="?" />
+      <Button fx:id="btnR4" layoutX="260.0" layoutY="272.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="?" />
+      <Button fx:id="btnR5" layoutX="260.0" layoutY="336.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="?" />
+      <Button fx:id="btnSuma" layoutX="27.0" layoutY="489.0" mnemonicParsing="false" onAction="#coger" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="+" />
+      <Button fx:id="btnResta" layoutX="100.0" layoutY="489.0" mnemonicParsing="false" onAction="#coger" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="-" />
+      <Button fx:id="btnMultiplicacion" layoutX="176.0" layoutY="489.0" mnemonicParsing="false" onAction="#coger" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="*" />
+      <Button fx:id="btnDivision" layoutX="254.0" layoutY="489.0" mnemonicParsing="false" onAction="#coger" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="/" />
+      <Text fx:id="TObjectiu" layoutX="138.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Objectiu: 560" />
+      <Text fx:id="TResultado1" layoutX="140.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="          -" />
+      <Text layoutX="40.0" layoutY="454.0" stroke="#070707" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="S' utilitzara el seguent numero per a fer l' operació:" underline="true" />
+      <Text fx:id="NumeroUtilitzar" layoutX="159.0" layoutY="478.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" />
+      <Button layoutX="41.0" layoutY="14.0" mnemonicParsing="false" onAction="#solucion" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="?" />
+      <Button fx:id="piestes" layoutX="40.0" layoutY="44.0" mnemonicParsing="false" onAction="#pistes" style="-fx-background-color: #bdffa3; -fx-font-weight: bold; -fx-border-color: #247b86;" text="Pistes" underline="true" />
+      <Text fx:id="TResultado2" layoutX="140.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="          -" />
+      <Text fx:id="TResultado3" layoutX="140.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="          -" />
+      <Text fx:id="TResultado4" layoutX="140.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="          -" />
+      <Text fx:id="TResultado5" layoutX="140.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="          -" />
+   </children>
+</Pane>
