@@ -1,0 +1,1 @@
+-Hemos dejado 3 ficheros, un in.txt, un out.txt y un fichero hola.java que simula un ejercicio.
