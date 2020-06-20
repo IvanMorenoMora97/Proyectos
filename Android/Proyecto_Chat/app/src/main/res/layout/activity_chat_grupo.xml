@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoslobo"
+    android:orientation="vertical"
+    tools:context=".ChatGrupo">
+
+    <!-- FUNCION DE ENVIAR UN TEXTO -->
+    <!-- Android singleLine permite que solo se peuda escribir y enviar una linea de texto -->
+    <!-- Android imeOptions permite indicar que tipo de función va a realizar el boton, en este caso
+     usara la funcion para enviar un mensaje (actionSend)-->
+
+
+    <EditText
+        android:id="@+id/escribirTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="top"
+        android:hint="Escriu un missatge"
+        android:imeOptions="actionSend"
+        android:singleLine="true"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/mostrarChat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

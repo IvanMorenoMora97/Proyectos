@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".InfoContacto">
+
+    <TextView
+        android:id="@+id/textNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre + Apellido"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_image_black_24dp" />
+
+    <TextView
+        android:id="@+id/textTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefono"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ciudad"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pais"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textCP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo Postal"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha Nacimiento"
+        android:textSize="36sp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/enviaremail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:onClick="enviarMensaje"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/llamarContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-55dp"
+        android:clickable="true"
+        android:onClick="llamarContacto"
+        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/eventosCalendario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="-56.5dp"
+        android:clickable="true"
+        android:onClick="crearEvento"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+
+    <TextView
+        android:id="@+id/mostrarId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondoslobo">
+
+    <TextView
+        android:id="@+id/TextoRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:text="Registro"
+        android:textSize="36sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053"
+        android:textColor="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/Nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Nom"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/Cognom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Cognom"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/Telefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Teléfon"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/Usuari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Usuari"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/Contrassenya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contrassenya"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_login"
+        android:text="Registrar-se"
+        android:layout_marginTop="80dp"
+        android:textColor="@drawable/txt_btnlogin"
+        />
+
+    <!-- android:background="@drawable/btn_registro1" -->
+
+</LinearLayout>

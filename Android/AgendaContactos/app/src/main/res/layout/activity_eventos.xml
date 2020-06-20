@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Eventos">
+
+    <Button
+        android:id="@+id/seleccionarFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Fecha" />
+
+    <Button
+        android:id="@+id/seleccionarHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hora" />
+
+    <EditText
+        android:id="@+id/mostrarFecha"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="fecha"
+        android:layout_marginTop="-103dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/mostrarHora"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:hint="hora"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/infoEvento"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:hint="Nota" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/insertarEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_gravity="right"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_check_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mostrarEventos"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_marginTop="-56dp"
+        android:clickable="true"
+        android:onClick="mostrar"
+        app:srcCompat="@android:drawable/ic_input_get" />
+
+</LinearLayout>

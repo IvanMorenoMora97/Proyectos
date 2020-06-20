@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormContactos">
+
+    <EditText
+        android:id="@+id/editarNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom" />
+
+    <EditText
+        android:id="@+id/editarCognom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cognom" />
+
+    <EditText
+        android:id="@+id/editarTelefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telèfon"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editarEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editarCp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Codi Postal"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editarCiutat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ciutat" />
+
+    <EditText
+        android:id="@+id/editarPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pais" />
+
+    <EditText
+        android:id="@+id/editarData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Data Naixement"
+        android:inputType="date" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/añadirContactoEditado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:src="@drawable/ic_check_black_24dp"
+        app:elevation="6dp"
+        app:srcCompat="@color/colorAccent"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <Button
+        android:id="@+id/CargarImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-150dp"
+        android:onClick="cargarImagen"
+        android:text="Cargar Imagen" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-250dp"
+        android:src="@drawable/ic_image_black_24dp" />
+
+</LinearLayout>

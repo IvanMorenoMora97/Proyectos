@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|right"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <EditText
+        android:id="@+id/buscadorContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Buscar Contacto" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="587dp">
+
+    </ListView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/añadirContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:onClick="añadirContacto"
+        android:src="@drawable/ic_person_add_black_24dp"
+        app:elevation="6dp"
+        app:srcCompat="@color/colorAccent"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="659dp"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/color1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="310dp"
+        android:layout_marginTop="-60dp"
+        android:text="Color 1" />
+
+    <Button
+        android:id="@+id/color2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="-48dp"
+        android:text="Color 2" />
+
+    <Button
+        android:id="@+id/color3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-49dp"
+        android:layout_marginRight="90dp"
+        android:text="Color" />
+
+</LinearLayout>
